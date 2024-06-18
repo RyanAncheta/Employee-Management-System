@@ -43,14 +43,13 @@ A web-based application for managing employee records, featuring user registrati
     ```sql
     CREATE DATABASE employee_management;
     USE employee_management;
-    CREATE TABLE employees (
-        id INT AUTO_INCREMENT PRIMARY KEY,
+    CREATE TABLE  emp_users (
+        emp_no INT AUTO_INCREMENT PRIMARY KEY,
         emp_name VARCHAR(100),
-        emp_no VARCHAR(50),
+        department VARCHAR(50),
         password VARCHAR(50),
         gender VARCHAR(10),
         emp_job VARCHAR(50),
-        department VARCHAR(50)
     );
     ```
 
