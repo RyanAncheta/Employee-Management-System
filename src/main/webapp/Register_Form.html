@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    
+</head>
+<style>
+    div{
+        width: 500px;
+        height: 400px;
+        background-color: #F5F5F5;
+        border: 1px solid black;
+        margin: auto;
+    }
+    form{
+        text-align: center;
+        margin-top: 10%;
+    }
+    body{
+        font-weight:bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+<body>
+
+    <div>
+        <form action="Insert_Form_Records" method="post">
+            <h2>Employee Sign Up!!</h2>
+            Emp Name: <input type="text" name="emp_name" ><br><br>
+            Emp Number: <input type="text" name="emp_no" ><br><br>
+            Password: <input type="password" name="password" ><br><br>
+            Gender: <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+            <br><br>
+            Job Title: <select name="emp_job">
+                <option value="programmer">Programmer</option>
+                <option value="manager">Manager</option>
+                <option value="tester">Tester</option>
+                <option value="sales">Sales Exceutive</option>
+            </select>
+            <br><br>
+            Department: <input type="radio" name = "department" value="IT">IT
+            <input type="radio" name = "department" value="HR">Management
+            <input type="radio" name = "department" value="Sales">Sales
+            <br>
+            <input type="submit" value="Submit">
+            
+
+
+        </form>
+
+
+    </div>
+</body>
+</html>
