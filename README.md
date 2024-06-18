@@ -16,10 +16,10 @@ A web-based application for managing employee records, featuring user registrati
 ![Welcome Screen](images/loginsuccess.png)
 *Welcome Screen: Basic welcome page with their empployee no.*
 
-![Registration Screen](imageso/registration.png)
+![Registration Screen](images/registration.png)
 *Registration Screen: New employees can sign up by filling out the form.*
 
-![Registration Success Screen](imageso/insertsucess.png)
+![Registration Success Screen](images/insertsucess.png)
 
 *Registration Success Screen: When registration is successfull user will be redirected to log in page.*
 
